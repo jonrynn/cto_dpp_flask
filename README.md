@@ -4,6 +4,8 @@ Second, not Windows, virtualenv venv --python=python3, or virtualenv venv --pyth
 Third, not Windows, source venv/bin/activate, or venv\Scripts\activate.bat in windows  
 to stop, deactivate  
 Fourth, pip install Flask-RESTful
+pip install -U flask-cors
+pip install axios
 cd into code directory  
 to run, python app.py  
 
