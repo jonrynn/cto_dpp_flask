@@ -7,6 +7,7 @@ from user import User, Users
 
 
 app = Flask(__name__)
+app.config['CORS_HEADERS'] = 'Content-Type'
 api = Api(app)
 CORS(app)
 api.add_resource(User, '/user/<string:petID>')

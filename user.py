@@ -1,5 +1,5 @@
 import sqlite3
-from turtle import update
+
 from flask_restful import Resource, reqparse
 
 
